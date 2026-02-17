@@ -1,0 +1,21 @@
+# Ignore sensitive files
+.env
+credentials.json
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Secrets
+.env.local
+config.json
+openclaw.json
+
+# Scam Shield Data (Keep this private!)
+data/
+*.json
+*.log
+*.backup
+
+# System
+.DS_Store
