@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/LICENSE-MIT-gray)]()
 
 ## 👁️ Overview
-
+[![Scam Shield Status](https://scamshield.duckdns.org/badge/marcodzano-lgtm/scam-shield-sentinel)](https://scamshield.duckdns.org)
 The **Scam Shield Sentinel** is an autonomous Python agent designed to protect the OpenClaw ecosystem. It perpetually scans GitHub, Farcaster, and other sources for malicious autonomous skills, wallet drainers, and backdoors.
 
 When a threat is detected, it is logged into a decentralized threat intelligence database, protecting users before they execute dangerous code.
@@ -32,4 +32,3 @@ graph TD;
     DB -->|Read| Dashboard[Live Web Dashboard];
     DB -->|Read| x402[💰 x402 Payment Server];
     x402 -->|0.001 USDC| Client[External Agent / User];
-[![Scam Shield Status](https://scamshield.duckdns.org/badge/marcodzano-lgtm/scam-shield-sentinel)](https://scamshield.duckdns.org)
