@@ -32,3 +32,4 @@ graph TD;
     DB -->|Read| Dashboard[Live Web Dashboard];
     DB -->|Read| x402[💰 x402 Payment Server];
     x402 -->|0.001 USDC| Client[External Agent / User];
+[![Scam Shield Status](https://scamshield.duckdns.org/badge/marcodzano-lgtm/scam-shield-sentinel)](https://scamshield.duckdns.org)
